@@ -1,0 +1,69 @@
+
+/* apply style for a class(.) */
+
+.navbar{
+  padding: 20px 30px 20px 20px;
+  background-color: black;
+  color: aliceblue;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  box-shadow: 3px 2px 8px black;
+
+}
+
+/* Using universal selector(*) to remove top margin default white space */
+
+*{
+  margin:0px;
+}
+
+.card {
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 13px black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px black;
+}
+
+.card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+
+}
+.card h2{
+  font-size:18px;
+  margin:10px 0;
+}
+.card p{
+  font-size:16px;
+  color:rgba(0, 0, 0, 0.703);
+}
+
+.container{
+  padding: 30px;
+  flex-direction:row;
+  justify-content: center;
+  gap: 20px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.card h4{
+  padding:10px;
+  font-size: 18px;
+  color:#555;
+}
+
+
