@@ -9,7 +9,20 @@ Built to practice component-based development, reusable React components, props,
   <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/CSS3-Styling-blue?logo=css3" alt="CSS3"/>
   <img src="https://img.shields.io/badge/Vite-Build%20Tool-646CFF?logo=vite" alt="Vite"/>
+  <img src="https://img.shields.io/badge/Deployment-Cloudflare%20Pages-orange?logo=cloudflare" alt="Cloudflare Pages"/>
 </p>
+
+---
+
+## 🌐 Live Demo
+
+**Explore the deployed application:**
+
+👉 [React Course Cards – Live Website](https://react-course-cards.pages.dev)
+
+**GitHub Repository:**
+
+👉 [View Source Code on GitHub](https://github.com/k-siddhartha-ai/react-course-cards)
 
 ---
 
@@ -28,8 +41,11 @@ The application uses reusable React components to display course information dyn
 - 💰 **Course Pricing:** Displays course prices.
 - ♻️ **Reusable Components:** Uses a reusable `Course` component.
 - ⚛️ **Props-Based Rendering:** Passes course information from the parent component to child components.
+- 🔄 **Conditional Rendering:** Controls course card visibility using props.
 - 🎨 **Clean UI:** Simple and visually organized card design.
-- 📱 **Responsive Layout:** Designed to adapt to different screen sizes.
+- 📱 **Responsive Layout:** Uses CSS Flexbox and wrapping to adapt to available screen widths.
+- ✨ **Hover Effects:** Includes transitions, shadows, and interactive card animations.
+- ☁️ **Cloud Deployment:** Deployed using Cloudflare Pages with GitHub integration.
 
 ## 🛠️ Tech Stack
 
@@ -41,10 +57,15 @@ The application uses reusable React components to display course information dyn
 | CSS3 | Styling and layout |
 | Vite | Development server and build tool |
 | Git & GitHub | Version control and project hosting |
+| Cloudflare Pages | Application deployment and hosting |
 
 ## 📸 Application Preview
 
-<!-- Add your project screenshot here after uploading it to the repository. -->
+<!-- Upload your project screenshot to GitHub and replace the placeholder below. -->
+
+<!-- <p align="center">
+  <img src="YOUR_SCREENSHOT_URL" alt="React Course Cards UI" width="900"/>
+</p> -->
 
 ## 📂 Project Structure
 
@@ -124,6 +145,23 @@ To preview the production build locally:
 npm run preview
 ```
 
+## ☁️ Deployment
+
+This project is deployed using **Cloudflare Pages** through GitHub integration.
+
+Deployment workflow:
+
+1. Push the project source code to GitHub.
+2. Connect the GitHub repository to Cloudflare Pages.
+3. Configure the React (Vite) framework preset.
+4. Set the build command to `npm run build`.
+5. Set the build output directory to `dist`.
+6. Deploy the application.
+
+Cloudflare Pages can automatically trigger new deployments when changes are pushed to the connected production branch.
+
+**Live URL:** https://react-course-cards.pages.dev
+
 ## 🧠 Concepts Practiced
 
 Through this project, I practiced:
@@ -134,9 +172,11 @@ Through this project, I practiced:
 - Conditional rendering
 - Importing and managing local image assets
 - CSS Flexbox and card layouts
+- CSS hover effects and transitions
 - Project organization with Vite
 - Git and GitHub version control
 - Production builds using Vite
+- Frontend application deployment
 
 ## 🎯 Future Improvements
 
@@ -145,6 +185,8 @@ Through this project, I practiced:
 - Add course details pages.
 - Introduce dynamic course data from an API.
 - Improve accessibility and user experience.
+- Enhance mobile responsiveness.
+- Add interactive course enrollment functionality.
 
 ## 👨‍💻 About the Developer
 
